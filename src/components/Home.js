@@ -18,7 +18,7 @@ const Home = () => {
                 setData(arrayData);
             }
         )
-
+ // react-hooks/exhaustive-deps
     }, [isClicked])
 
     return (
@@ -31,7 +31,7 @@ const Home = () => {
                 data.map((item, i) => {
                     return <div key={i}>
                         <h3>{item.recipe.label}</h3>
-                        <img className="img" src={item.recipe.image} />
+                        <img className="img" src={item.recipe.image} alt="img" />
                     </div>
                 })
 

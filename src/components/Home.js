@@ -18,7 +18,7 @@ const Home = () => {
                 setData(arrayData);
             }
         )
- 
+  // eslint-disable-next-line 
     }, [isClicked])
 
     return (

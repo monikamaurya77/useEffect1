@@ -1,0 +1,27 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(213, 214, 221);
+}
+
+.container{
+  margin-left: 3%;
+}
+
+.input{
+  width: 25%;
+  padding: .5rem;
+  border: transparent;
+  margin-top: 1rem;
+}
+
+.button{
+  padding:.5rem;
+  border: transparent;
+  background-color: rgb(78, 140, 210);
+  color: white;
+}
+
+.img{
+  border: 3px solid black;
+}

@@ -26,6 +26,7 @@ const Home = () => {
          
             <input onChange={(e)=>{setQuery(e.target.value)}} type="text" className="input" placeholder="search recipes"></input>
             <button onClick={()=>{setIsClicked((prevState)=>!prevState)}} className="button">Search</button>
+             <h5>Showing result for  {query}</h5>
 
             {
                 data.map((item, i) => {
